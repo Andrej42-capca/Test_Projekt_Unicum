@@ -16,10 +16,13 @@ volume3 = length3*width3*height3
 Volume_o = volume1+volume2+volume3
 print(Volume_o) #Общий объем 3 прямоугольников
 
+
 #Задание №2
 num = int(input("Введите число,которое будет умножаться на таблицу умножения "))
 for i in range(1,11):
     print(num*i)
+
+
 #Задание №3
 import math
 n =int(input("Введите число"))
